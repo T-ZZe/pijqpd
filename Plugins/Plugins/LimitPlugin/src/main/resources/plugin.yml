@@ -1,0 +1,5 @@
+name: LimitPlugin
+version: 1.0
+main: fr.limit.LimitPlugin
+# Paper 26.3
+api-version: "26.3"

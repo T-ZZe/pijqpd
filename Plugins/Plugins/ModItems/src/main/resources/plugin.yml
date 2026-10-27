@@ -1,0 +1,17 @@
+name: ModItems
+version: 1.0
+main: fr.moditems.ItemsPlugin
+api-version: "26.3"
+commands:
+  moditems:
+    description: Menu des objets spéciaux (op)
+    usage: /moditems [give <joueur> <objet>]
+    permission: moditems.admin
+    permission-message: "§cCette commande est réservée aux opérateurs."
+  recettes:
+    description: Voir les recettes des objets spéciaux
+    usage: /recettes
+permissions:
+  moditems.admin:
+    description: Donner les objets spéciaux
+    default: op

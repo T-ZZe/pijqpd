@@ -1,0 +1,6 @@
+TOUT EST DANS CE DOSSIER : LimitPlugin, SkillTree, CustomMobs, ModItems + la compilation (.github).
+
+1) Affiche les fichiers caches (Windows : Affichage > Afficher > Elements masques).
+2) Cree un depot GitHub vide, clique "uploading an existing file".
+3) Selectionne TOUT le contenu de ce dossier (Ctrl+A) et glisse-le dans GitHub. Commit.
+4) Onglet Actions > coche verte > Artifacts > "Plugins" : tu y trouves les 4 jars.

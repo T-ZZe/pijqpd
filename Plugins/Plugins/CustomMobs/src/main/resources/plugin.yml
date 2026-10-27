@@ -1,0 +1,23 @@
+name: CustomMobs
+version: 1.0
+main: fr.mobs.MobsPlugin
+api-version: "26.3"
+commands:
+  mobegg:
+    description: Menu / oeufs des mobs custom (op)
+    usage: /mobegg
+    aliases: [oeuf]
+    permission: mobs.admin
+    permission-message: "§cCette commande est réservée aux opérateurs."
+  mobvault:
+    description: Vault des boss (utilise tes clés)
+    usage: /mobvault
+  mobspawner:
+    description: Menu des 18 spawners de boss (op)
+    usage: /mobspawner
+    permission: mobs.admin
+    permission-message: "§cCette commande est réservée aux opérateurs."
+permissions:
+  mobs.admin:
+    description: Commandes d'administration des mobs custom
+    default: op
